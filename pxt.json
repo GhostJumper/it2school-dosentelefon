@@ -1,0 +1,27 @@
+{
+    "name": "IT2School-Dosentelefon",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "funk": "*",
+        "radio-broadcast": "*",
+        "Encryption": "github:GhostJumper/calliope-encryption#v0.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.1.11",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
